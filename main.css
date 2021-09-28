@@ -1,8 +1,13 @@
 body {
-	background-color: #222222;
-	color: #666666;
+	background-color: #4c00ff;
+	color: #f80000;
 	font-size: 18px;
 	padding: 1em 8em;
+	line-height: 4rem;
+}
+
+p {
+	text-indent: 2rem;
 }
 
 header, main {
@@ -10,17 +15,18 @@ header, main {
 	padding: 1em;
 }
 
-header {
+header, h2, h3, h4 {
 	text-align: center;
+	font-size: 2.5rem !important;
 }
 
 a:link, a:visited, a:active {
 	border: 2px solid lightblue;
 	border-radius: 2px;
-	color: #ffff00;
+	color: #d8ff7d;
 }
 
-a:hover {
+a:hover, a:focus {
 	background-color: #ffff00;
 	color: #ffaa50;
 }
@@ -33,7 +39,7 @@ table {
 table td {
 	background-color: #dd0000;
 	border: 1px solid #000000;
-	color: #ffaa50;
+	color: #1fff01;
 	margin: 0;
 	padding: .5em;
 }
@@ -43,16 +49,15 @@ table tr {
 	padding: 0;
 }
 
-.large-text {
-	font-size: 2.5em;
-}
-
-.medium-text {
-	font-size: 1.75em;
+.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: %;
 }
 
 .favorite-thing {
-	background-color: #ffffff;
+	background-color: #ff0000;
 	color: #000000;
 	margin: 1.5em 0;
 	padding: 1em;
